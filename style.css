@@ -47,3 +47,9 @@ section ul{
     padding: 20px;
     font-weight: bold;
 }
+
+.card-img-top,
+.carousel-item img {
+    height: 260px;
+    object-fit: cover;
+}
