@@ -125,3 +125,14 @@ font-family: Georgia, serif;
 #productos .card-body .btn {
     margin-top: auto;
 }
+#productos .btn-primary {
+    background-color: #8b5e3c;
+    border-color: #8b5e3c;
+    color: white;
+}
+
+#productos .btn-primary:hover {
+    background-color: #a66a3f;
+    border-color: #a66a3f;
+    color: white;
+}
