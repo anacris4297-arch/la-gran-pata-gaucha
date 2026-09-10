@@ -36,21 +36,54 @@ Desarrollar un sitio web para La Gran Pata Gaucha que permita presentar el empre
 
 Actualmente se está trabajando en el diseño, organización de contenidos, presentación de productos y adaptación visual del sitio.
 
-## Registro de avances
+## Historial de avances
 
-### Jornada 09/09/2026
+### 26/08/2026 - Inicio del proyecto
 
-- Creación y actualización del archivo README.
+- Creación de la primera versión del sitio web de La Gran Pata Gaucha.
+- Desarrollo de la estructura inicial con HTML.
+- Incorporación de estilos CSS.
+- Primeras mejoras en el diseño visual.
+
+### 31/08/2026 - Incorporación de Bootstrap
+
+- Incorporación de Bootstrap 5 al proyecto.
+- Comienzo del uso de componentes y herramientas de Bootstrap para mejorar el diseño.
+
+### 02/09/2026 - Carrusel de productos
+
+- Incorporación de un carrusel de Bootstrap.
+- Agregado de imágenes de productos al carrusel.
+- Organización de la presentación visual de los productos.
+
+### 03/09/2026 - Productos y tarjetas
+
+- Incorporación de los principales productos de La Gran Pata Gaucha.
+- Mejora del diseño de las tarjetas de productos.
+- Organización del contenido y las imágenes.
+
+### 08/09/2026 - Portada y diseño
+
+- Incorporación del video de portada.
+- Agregado de nuevos productos.
+- Personalización del color de los botones.
+- Mejoras generales en la presentación visual.
+
+### 09/09/2026 - Presentación, logo y organización
+
 - Incorporación del logo de La Gran Pata Gaucha.
 - Mejora del encabezado y presentación de la marca.
-- Incorporación y ajustes del video de portada.
-- Mejora de la sección "Nosotros".
-- Incorporación y organización de los principales productos.
+- Mejoras en la sección "Nosotros".
 - Ajuste del tamaño y alineación de las tarjetas de productos.
-- Personalización de botones y colores del sitio.
-- Uso de componentes y utilidades de Bootstrap.
-- Registro de los cambios mediante Git y actualización del repositorio en GitHub.
+- Creación del archivo README.
+- Registro y actualización de los cambios mediante Git y GitHub.
 
+### 10/09/2026 - Documentación y organización del proyecto
+
+- Ampliación y mejora del README.
+- Incorporación del historial de avances del proyecto.
+- Definición de próximos pasos.
+- Planificación del uso de Trello para organizar las tareas del proyecto.
 ## Próximos pasos
 
 - Continuar mejorando la sección "Nosotros".
