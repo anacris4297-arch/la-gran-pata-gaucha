@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 320">
+  <!-- Rama botánica decorativa izquierda -->
+  <g fill="none" stroke="#b89b7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+
+    <!-- Tallo principal -->
+    <path d="M20 305 C45 245, 55 175, 105 95 C125 65, 150 40, 185 20"></path>
+
+    <!-- Ramas secundarias -->
+    <path d="M55 225 C35 200, 25 175, 20 145"></path>
+    <path d="M75 185 C110 165, 135 145, 150 115"></path>
+    <path d="M105 120 C85 95, 80 75, 82 55"></path>
+
+    <!-- Hojas -->
+    <path d="M48 235 C20 230, 8 215, 10 195 C32 196, 48 210, 48 235Z"></path>
+    <path d="M62 205 C35 190, 30 170, 38 150 C58 160, 70 180, 62 205Z"></path>
+    <path d="M92 165 C118 150, 138 152, 150 166 C132 180, 110 181, 92 165Z"></path>
+    <path d="M118 105 C95 90, 92 70, 102 52 C122 64, 132 85, 118 105Z"></path>
+    <path d="M145 65 C155 38, 173 24, 194 24 C190 47, 172 64, 145 65Z"></path>
+  </g>
+</svg>
