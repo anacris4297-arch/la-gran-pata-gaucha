@@ -84,13 +84,24 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Incorporación del historial de avances del proyecto.
 - Definición de próximos pasos.
 - Planificación del uso de Trello para organizar las tareas del proyecto.
-## Próximos pasos
 
+### 14/09/2026 - Desarrollo de la sección Servicios
+
+- Se creó y diseñó la sección "Nuestros servicios".
+- Se incorporó el servicio de catering para eventos sociales, empresariales y corporativos.
+- Se incorporó el servicio de patas y perniles al horno de leña.
+- Se incorporó el servicio de picadas y lunch.
+- Se agregaron imágenes propias de eventos y productos.
+- Se trabajó en títulos, descripciones y botones de consulta.
+- Se utilizó una estructura alternada de imagen y texto para los servicios.
+
+### Próximos pasos
+- Continuar desarrollando los servicios restantes.
+- Incorporar mesa dulce.
+- Incorporar menúes personalizados para cada evento.
+- Incorporar alquiler de vajilla y mantelería.
+- Incorporar servicio de mozos.
 - Continuar mejorando la sección "Nosotros".
-- Completar la sección de servicios.
 - Mejorar la sección de contacto.
-- Incorporar el acceso a WhatsApp.
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
-- Organizar las próximas tareas del proyecto mediante Trello.
-  
