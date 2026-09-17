@@ -106,5 +106,5 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
 - Vincular los botones "Consultar" de la sección Servicios con WhatsApp.
-Crear una pequeña base de datos de clientes vinculada con la página web
-Agregar redes sociales: íconos de Facebook e Instagram
+- Crear una pequeña base de datos de clientes vinculada con la página web
+- Agregar redes sociales: íconos de Facebook e Instagram
