@@ -105,3 +105,4 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Mejorar la sección de contacto.
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
+- Vincular los botones "Consultar" de la sección Servicios con WhatsApp.
