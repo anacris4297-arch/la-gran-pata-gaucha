@@ -112,10 +112,9 @@ font-family: Georgia, serif;
     max-width: 750px;
     margin: 15px auto;
 }
+/* Cards de productos: ancho y organización interna */
 #productos .card {
-    width: 13rem !important;
-}
-#productos .card {
+    width: 20rem !important;
     display: flex;
     flex-direction: column;
 }
