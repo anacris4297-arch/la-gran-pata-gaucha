@@ -338,3 +338,11 @@ overflow: hidden;
         font-size: 26px;
     }
 }
+/* Íconos de redes sociales */
+.bi-instagram{
+    font-size: 30px;
+     color:#E1306C;
+}
+.bi-facebook{
+    font-size: 30px; 
+}

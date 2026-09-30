@@ -95,6 +95,13 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Se trabajó en títulos, descripciones y botones de consulta.
 - Se utilizó una estructura alternada de imagen y texto para los servicios.
 
+### 30/09/2026 - Incorporación de redes sociales
+- Se incorporó la librería Bootstrap Icons para utilizar íconos de redes sociales.
+- Se agregaron los íconos de Instagram y Facebook en el pie de página.
+- Se configuraron los enlaces de las redes sociales para abrirse en una nueva pestaña.
+- Se ajustaron el tamaño, la separación y el color de los íconos de redes sociales.
+- Quedó pendiente revisar el acceso al enlace de Facebook.
+
 ### Próximos pasos
 - Continuar desarrollando los servicios restantes.
 - Incorporar mesa dulce.
@@ -105,6 +112,6 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Mejorar la sección de contacto.
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
-- Vincular los botones "Consultar" de la sección Servicios con WhatsApp.
 - Crear una pequeña base de datos de clientes vinculada con la página web
 - Agregar redes sociales: íconos de Facebook e Instagram
+- Crear una sección de combos según tipo de evento.
