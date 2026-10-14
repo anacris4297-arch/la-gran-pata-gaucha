@@ -1,0 +1,71 @@
+[
+    {
+        "nombre" : "Perniles y patas de ternera",
+        "descripcion": "Perniles al horno de leña, ideales para todo tipo de eventos",
+        "imagenes": [ "img/pernil-de-cerdo.jpeg" , "img/ternera.png"]
+
+
+    },
+    { 
+        "nombre":"Bondiolas desmenuzadas",
+    "descripcion":"Bondiola desmenuzada cocinada a fuego lento en sus propios jugos,con un toque de cerveza y salsa barbacoa",
+    "imagenes": ["img/bondiolas-desmenuzadas-2.png "]
+
+
+ },
+
+
+{
+    "nombre" : "Cuarto trasero de ternera",
+        "descripcion": "Ternera al horno de leña, tierna y sabrosa, ideal para compartir en todo tipo de eventos",
+        "imagenes": [ "img/cuarto.png"]
+
+
+},
+{
+   "nombre" : "Costillar de ternera ",
+        "descripcion": "Costillar de ternera al horno de leña, dorado y sabroso, ideal para compartir en eventos ",
+        "imagenes": [ "img/costillar-de-ternera.png "]
+ 
+
+},
+{
+    "nombre":"Bondiolas de cerdo",
+    "descripcion":"Bondiolas de cerdo cocinadas en horno a leña para comer en sandwich o al plato",
+    "imagenes":["img/bondiolas.jpeg"]
+},
+{
+    "nombre": "Tablas de fiambres y quesos",
+    "descripcion":"Tablas preparadas con una selección de fiambres y quesos premium, ideales para compartir en todo tipo de evento ",
+    "imagenes":["img/tabla-presentacion.jpeg"]
+},
+{
+    "nombre": "Empanadas",
+    "descripcion": "Empanadas de campo fritas o al horno y empanadas de copetín, ideales para eventos y reuniones",
+    "imagenes": ["img/empanadas-de-copetin.jpeg","img/empanadas- fritas.jpeg","img/empanadas-al-horno.jpeg" ]
+},
+{
+    "nombre":"Pizzetas",
+    "descripcion":"Pizzetas artesanales con variedad de sabores,ideales para eventos y reuniones",
+    "imagenes":["img/pizzetas-jamon.jpeg","img/pizzetas-fugazzeta.jpeg","img/pizzetas-muzzarella.jpeg"]
+},
+{
+    "nombre":"Tarteletas",
+    "descripcion":"Tartaletas saladas con variedad de rellenos, ideales para lunch, recepciones y eventos",
+    "imagenes":["img/tarteletas-varias.jpeg","img/tarteletas-pollo-ciboulette.jpeg","img/tarteletas-aceitunas.jpeg"]
+},
+{
+    "nombre":"Sándwiches de miga",
+    "descripcion":"Sándwiches de miga con variedad de rellenos, ideales para lunch, reuniones y eventos",
+    "imagenes":["img/sandwich-de-miga.jpeg","img/sandwich-de-miga-pan-de-salvado.jpeg","img/sandwich-de-miga-variedades.jpeg"]
+},
+
+{
+    "nombre":"Tortas saladas",
+    "descripcion":"Tortas saladas con variedad de rellenos y una cuidada presentación, ideales para reuniones y eventos",
+    "imagenes":["img/torta-salada.jpeg","img/torta-salada-2.jpeg","img/torta-salada-3.jpeg"]
+
+}
+
+
+]
