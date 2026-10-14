@@ -117,6 +117,7 @@ font-family: Georgia, serif;
     width: 20rem !important;
     display: flex;
     flex-direction: column;
+    align-self: stretch;
 }
 
 #productos .card-body {

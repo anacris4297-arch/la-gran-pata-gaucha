@@ -12,6 +12,8 @@ La página presenta nuestros principales servicios y productos para eventos, com
 - CSS
 - Bootstrap 5
 - Git y GitHub
+- JavaScript
+- JSON
 
 ## Secciones del sitio
 
@@ -102,6 +104,15 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Se ajustaron el tamaño, la separación y el color de los íconos de redes sociales.
 - Quedó pendiente revisar el acceso al enlace de Facebook.
 
+### 14/10/2026 - Productos dinámicos con JSON y JavaScript
+
+- Creación del archivo productos.json con 11 productos.
+- Incorporación de JavaScript para generar las tarjetas de productos.
+- Implementación de carruseles de imágenes en las tarjetas.
+- Incorporación de botones de consulta por WhatsApp.
+- Mejoras en la alineación y presentación de las tarjetas.
+- Organización del proyecto y seguimiento de tareas mediante Trello.
+
 ### Próximos pasos
 - Continuar desarrollando los servicios restantes.
 - Incorporar mesa dulce.
@@ -113,5 +124,4 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
 - Crear una pequeña base de datos de clientes vinculada con la página web
-- Agregar redes sociales: íconos de Facebook e Instagram
 - Crear una sección de combos según tipo de evento.
