@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>La Gran Pata Gaucha</title>
+    <link rel="icon" type="image/png" href="img/logo-lgpg.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Librería de íconos para redes sociales -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -62,77 +63,12 @@
     <div class="adorno-inferior"></div>
 </section>
 <!-- SECCIÓN PRODUCTOS -->
-    </div>     <section id="productos" class="py-5">
-            <h2>Nuestros productos</h2>
+    </div>    
+     <section id="productos" class="py-5">
+           <h2>Nuestros productos</h2>
            <div id="contenedor-productos" class="d-flex justify-content-center gap-2 flex-wrap">
-
-           <div class="card ">
-  <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/pernil-de-cerdo.jpeg" class="d-block w-100" alt="Pernil">
-      
-    </div>
-    <div class="carousel-item">
-     <img src="img/ternera.png" class="d-block w-100" alt="Ternera">
-      
-    </div>
-   
-    </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-  <div class="card-body">
-    <h5 class="card-title">Perniles y patas de ternera</h5>
-    <p class="card-text">Perniles al horno de leña, ideales para todo tipo de eventos.</p>
-    <a href="#" class="btn btn-primary">Consultar</a>
-  </div>
-</div>
-<div class="card" >
-  <img src="img/bondiolas-desmenuzadas-2.png" class="card-img-top w-100" alt="Bondiolas desmenuzadas">
-  <div class="card-body">
-    <h5 class="card-title">Bondiolas desmenuzadas</h5>
-    <p class="card-text">Bondiola desmenuzada cocinada a fuego lento en sus propios jugos,con un toque de cerveza y salsa barbacoa.</p>
-    <a href="#" class="btn btn-primary">Consultar</a>
-  </div>
-</div>
-<div class="card" >
-  <img src="img/cuarto.png" class="card-img-top w-100" alt="Cuarto trasero de ternera">
-  <div class="card-body">
-    <h5 class="card-title">Cuarto trasero de ternera</h5>
-    <p class="card-text">Ternera al horno de leña, tierna y sabrosa, ideal para compartir en todo tipo de eventos.</p>
-    <a href="#" class="btn btn-primary">Consultar</a>
-  </div>
-</div>
-<div class="card" >
-  <img src="img/costillar-de-ternera.png" class="card-img-top w-100" alt="Costillar de ternera">
-  <div class="card-body">
-    <h5 class="card-title">Costillar de ternera</h5>
-    <p class="card-text">Costillar de ternera al horno de leña, dorado y sabroso, ideal para compartir en eventos.</p>
-    <a href="#" class="btn btn-primary">Consultar</a>
-  </div>
-  </div>
-  <div class="card" >
-  <img src="img/bondiolas.jpeg" class="card-img-top w-100" alt="Bondiolas de cerdo">
-  <div class="card-body">
-    <h5 class="card-title">Bondiolas de cerdo </h5>
-    <p class="card-text">Bondiolas de cerdo cocinadas en horno a leña para comer en sandwich o al plato.</p>
-    <a href="#" class="btn btn-primary">Consultar</a>
-  </div>
-</div>
-</div>
-        </section>
+           </div>
+    </section>
 
         <!-- ===== SECCIÓN SERVICIOS ===== -->
 <section id="servicios" class="py-5">
@@ -228,6 +164,29 @@
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Consultanos por tu próximo evento.</p>
+           <form class="container col-md-7 mx-auto" id="formPresupuesto">
+  <input type="text" id="nombre" class="form-control mb-3" placeholder="Nombre y apellido" required>
+ <input type="tel" id="telefono" class="form-control mb-3" placeholder="Teléfono" required>
+  <input type="email" id="correo" class="form-control mb-3" placeholder="Correo electrónico" required>
+ <div class="input-group mb-3">
+  <span class="input-group-text">Fecha del evento</span>
+  <input type="date" id="fecha" class="form-control" required>
+</div>
+<input type="number" id="invitados" class="form-control mb-3" placeholder="Cantidad de invitados" min="1" required>
+<select id="servicio" class="form-select mb-3" required>
+  <option value="" selected disabled>Seleccioná un servicio</option>
+  <option>Catering para eventos</option>
+  <option>Patas y perniles</option>
+  <option>Picadas y lunch</option>
+  <option>Mesa dulce</option>
+  <option>Otro</option>
+</select>
+<textarea id="mensaje" class="form-control mb-3" rows="3" placeholder="Contanos qué necesitás"></textarea>
+
+<button type="submit" class="btn btn-primary px-4 ">
+  Solicitar presupuesto
+</button>
+</form>
         </section>
 
     </main>
@@ -242,5 +201,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="productos.js"></script>
+<script src="formulario.js"></script>
 </body>
 </html>

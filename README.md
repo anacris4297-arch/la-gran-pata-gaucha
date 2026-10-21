@@ -113,6 +113,12 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Mejoras en la alineación y presentación de las tarjetas.
 - Organización del proyecto y seguimiento de tareas mediante Trello.
 
+### 20/10/2026 - Formulario de contacto
+- Mejora estética del formulario de contacto, reutilizando estilos CSS existentes.
+- Implementación del formulario de solicitud de presupuestos con envío de datos por WhatsApp.
+- Ajustes de diseño responsive para mejorar la visualización en dispositivos móviles.
+- Adaptación de imágenes, títulos y distribución de contenidos para pantallas pequeñas.
+
 ### Próximos pasos
 - Continuar desarrollando los servicios restantes.
 - Incorporar mesa dulce.
@@ -120,7 +126,6 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Incorporar alquiler de vajilla y mantelería.
 - Incorporar servicio de mozos.
 - Continuar mejorando la sección "Nosotros".
-- Mejorar la sección de contacto.
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
 - Crear una pequeña base de datos de clientes vinculada con la página web
