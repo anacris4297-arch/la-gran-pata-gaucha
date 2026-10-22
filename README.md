@@ -119,6 +119,13 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Ajustes de diseño responsive para mejorar la visualización en dispositivos móviles.
 - Adaptación de imágenes, títulos y distribución de contenidos para pantallas pequeñas.
 
+### 21/10/2026 - Menú de navegación responsive
+
+- Implementación de un menú desplegable para dispositivos móviles utilizando Bootstrap 5.
+- Incorporación del botón de navegación para mostrar y ocultar los enlaces.
+- Ajuste de la alineación del menú mediante CSS, reutilizando estilos existentes.
+- Pruebas de funcionamiento del menú abierto y cerrado en la vista móvil.
+
 ### Próximos pasos
 - Continuar desarrollando los servicios restantes.
 - Incorporar mesa dulce.

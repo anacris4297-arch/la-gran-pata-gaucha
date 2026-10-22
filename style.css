@@ -32,7 +32,7 @@ nav a:hover {
     color: #a65f2e;
 }
 main{
-    max-width: 1000;
+    max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     
@@ -360,4 +360,10 @@ overflow: hidden;
 #contacto .form-select,
 #contacto .input-group-text {
     background-color: #fffaf2;
+}
+/* Menú de navegación en celulares */
+@media (max-width: 767px) {
+    .navbar {
+        justify-content: center;
+    }
 }
