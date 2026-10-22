@@ -128,12 +128,10 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 
 ### Próximos pasos
 - Continuar desarrollando los servicios restantes.
-- Incorporar mesa dulce.
 - Incorporar menúes personalizados para cada evento.
-- Incorporar alquiler de vajilla y mantelería.
-- Incorporar servicio de mozos.
 - Continuar mejorando la sección "Nosotros".
 - Revisar la adaptación del sitio a diferentes tamaños de pantalla.
 - Continuar mejorando el diseño visual general.
-- Crear una pequeña base de datos de clientes vinculada con la página web
 - Crear una sección de combos según tipo de evento.
+- Incorporar fotografías de mesas armadas para presentar el servicio de alquiler de vajilla y mantelería.
+- Incorporar fotografías del staff de mozos para presentar el servicio de atención en eventos.
