@@ -9,7 +9,7 @@
     { 
         "nombre":"Bondiolas desmenuzadas",
     "descripcion":"Bondiola desmenuzada cocinada a fuego lento en sus propios jugos,con un toque de cerveza y salsa barbacoa",
-    "imagenes": ["img/bondiolas-desmenuzadas-2.png "]
+    "imagenes": ["img/bondiolas-desmenuzadas-2.png"]
 
 
  },
@@ -25,7 +25,7 @@
 {
    "nombre" : "Costillar de ternera ",
         "descripcion": "Costillar de ternera al horno de leña, dorado y sabroso, ideal para compartir en eventos ",
-        "imagenes": [ "img/costillar-de-ternera.png "]
+        "imagenes": [ "img/costillar-de-ternera.png"]
  
 
 },

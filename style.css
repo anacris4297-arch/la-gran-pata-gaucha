@@ -367,3 +367,27 @@ overflow: hidden;
         justify-content: center;
     }
 }
+/* ===== BOTÓN FLOTANTE DE WHATSAPP ===== */
+.whatsapp-flotante {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Efecto al pasar el mouse */
+.whatsapp-flotante:hover {
+    background-color: #1ebe5d;
+    color: white;
+}
