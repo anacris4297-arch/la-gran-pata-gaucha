@@ -126,12 +126,28 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Ajuste de la alineación del menú mediante CSS, reutilizando estilos existentes.
 - Pruebas de funcionamiento del menú abierto y cerrado en la vista móvil.
 
+### 26/10/2026 - Mejoras en servicios y funcionalidades
+
+- Corrección de errores en la estructura HTML, enlaces y rutas de imágenes.
+- Incorporación del botón flotante de WhatsApp para facilitar las consultas.
+- Incorporación del enlace "Servicios" al menú de navegación.
+- Ajuste del botón principal de la portada para dirigir a la sección Productos.
+- Incorporación del servicio de costillares de ternera y cerdo.
+- Incorporación de menús especiales, incluyendo opciones vegetarianas y sin TACC mediante proveedor especializado.
+- Incorporación del servicio de vajilla y mantelería con fotografía real de un evento.
+- Reorganización de las imágenes y los textos de la sección Servicios.
+- Incorporación del botón desplegable "+ Info" en Patas y perniles, utilizando Bootstrap 5.
+- Pruebas de visualización y funcionamiento de la página en un celular real.
+- Corrección de etiquetas HTML para mantener la estructura de la página.
+
+
 ### Próximos pasos
-- Continuar desarrollando los servicios restantes.
-- Incorporar menúes personalizados para cada evento.
+- Reorganizar la sección Servicios utilizando JavaScript para generar contenido y botones desplegables sin repetir código HTML.
+- Incorporar el botón "+ Info" en los demás servicios.
+- Desarrollar propuestas y combinaciones gastronómicas personalizadas para distintos eventos.
 - Continuar mejorando la sección "Nosotros".
-- Revisar la adaptación del sitio a diferentes tamaños de pantalla.
-- Continuar mejorando el diseño visual general.
-- Crear una sección de combos según tipo de evento.
-- Incorporar fotografías de mesas armadas para presentar el servicio de alquiler de vajilla y mantelería.
-- Incorporar fotografías del staff de mozos para presentar el servicio de atención en eventos.
+- Incorporar fotografías del personal de atención en eventos.
+- Revisar la adaptación del sitio a distintos tamaños de pantalla.
+- Realizar pruebas finales de navegación, formularios y enlaces de WhatsApp.
+- Completar la documentación y preparar la entrega del proyecto.
+
