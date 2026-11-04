@@ -140,14 +140,27 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Pruebas de visualización y funcionamiento de la página en un celular real.
 - Corrección de etiquetas HTML para mantener la estructura de la página.
 
+### 03/11/2026 - Reorganización de la sección Servicios
+
+- Creación de servicios.json con la información de los siete servicios.
+- Creación de servicios.js para generar contenido dinámicamente.
+- Implementación de fetch() para leer los datos del archivo JSON.
+- Generación automática de imágenes, títulos y descripciones.
+- Incorporación del botón "+ Info" con detalles desplegables mediante Bootstrap 5.
+- Incorporación de botones de WhatsApp con mensajes personalizados.
+- Conservación del diseño alternado de fotografías.
+- Eliminación del código HTML repetido en index.html.
+- Corrección de rutas de imágenes y etiquetas de cierre HTML.
+- Pruebas visuales de los siete servicios en el navegador.
+
+
 
 ### Próximos pasos
-- Reorganizar la sección Servicios utilizando JavaScript para generar contenido y botones desplegables sin repetir código HTML.
-- Incorporar el botón "+ Info" en los demás servicios.
 - Desarrollar propuestas y combinaciones gastronómicas personalizadas para distintos eventos.
 - Continuar mejorando la sección "Nosotros".
 - Incorporar fotografías del personal de atención en eventos.
 - Revisar la adaptación del sitio a distintos tamaños de pantalla.
 - Realizar pruebas finales de navegación, formularios y enlaces de WhatsApp.
 - Completar la documentación y preparar la entrega del proyecto.
+
 

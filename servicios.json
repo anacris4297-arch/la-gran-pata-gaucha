@@ -1,0 +1,110 @@
+
+[
+  {
+    "id": 1,
+    "etiqueta": "CATERING",
+    "nombre": "Catering para eventos sociales, empresariales y corporativos",
+    "descripcion": "Propuestas gastronómicas pensadas para acompañar cada celebración, reunión o encuentro, adaptándonos al estilo y necesidades de cada evento.",
+    "imagen": "img/catering-eventos.jpeg",
+    "detalles": [
+      "Propuestas gastronómicas personalizadas según el tipo de evento.",
+      "Opciones de menú adaptadas a las necesidades de cada cliente.",
+      "Presupuestos personalizados."
+    ]
+
+  },
+  {
+    "id": 2,
+    "etiqueta": "NUESTRA ESPECIALIDAD",
+    "nombre": "Patas y perniles al horno de leña",
+    "descripcion": "Sabores de campo elaborados al horno de leña, acompañados de nuestras salsas caseras y pensados para compartir en cada evento.",
+    "imagen": "img/servicio-de-patas-y-perniles-evento.jpeg",
+    "detalles": [
+      "Pernil de cerdo o pata de ternera.",
+      "Panes y salsas caseras.",
+      "Bandeja de tomate y lechuga.",
+      "Soporte para la pata y tabla para cortar.",
+      "Panera y recipientes para las salsas.",
+      "Servicio de fileteador opcional."
+    ]
+ 
+  },
+  {
+    "id": 3,
+    "etiqueta": "TABLAS Y SABORES PARA COMPARTIR",
+    "nombre": "Picadas y lunch",
+    "descripcion": "Tablas de fiambres y quesos acompañadas por variedad de pancitos, empanadas de campo, empanadas de copetín, pizzettas, canapés, sándwiches de miga y otras opciones para compartir.",
+    "imagen": "img/picadas-lunch.png",
+    "detalles": [
+      "Tablas de fiambres y quesos.",
+      "Empanadas de campo y de copetín.",
+      "Pizzettas y canapés.",
+      "Sándwiches de miga.",
+      "Propuestas personalizadas según el evento."
+    ]
+
+  },
+  {
+    "id": 4,
+    "etiqueta": "SABORES A LA PARRILLA",
+    "nombre": "Costillares de ternera y cerdo",
+    "descripcion": "Disfrutá de nuestros costillares de ternera y cerdo, preparados a la parrilla en el lugar del evento o entregados listos y calientes para servir. Ambas modalidades incluyen variedad de ensaladas.",
+    "imagen": "img/servicio-costillar.png",
+    "detalles": [
+      "Costillares de ternera y cerdo.",
+      "Asado en el lugar del evento.",
+      "Opción de entrega listo y caliente para servir.",
+      "Variedad de ensaladas incluidas.",
+      "Servicio de mozos y vajilla opcional, según presupuesto."
+    ]
+
+
+  },
+{
+  "id": 5,
+  "etiqueta": "EL TOQUE DULCE DE TU EVENTO",
+  "nombre": "Mesa dulce",
+  "descripcion": "Ofrecemos mesas dulces convencionales, con tortas y tartas para compartir, o propuestas en porciones individuales, como mini tortas, shots dulces y otras delicias.",
+  "imagen": "img/mesa-dulce.png",
+  "detalles": [
+    "Mesa dulce convencional con variedad de tortas y tartas.",
+    "Mesa dulce en porciones individuales.",
+    "Mini tortas y shots dulces.",
+    "Combinaciones de ambas modalidades.",
+    "Propuestas personalizadas según el evento y la cantidad de invitados."
+]
+
+},
+ {
+    "id": 6,
+    "etiqueta": "DETALLES PARA TU EVENTO",
+    "nombre": "Vajilla y mantelería",
+    "descripcion": "Complementamos nuestras propuestas gastronómicas con opciones de vajilla y mantelería para cuidar cada detalle de tu evento.",
+    "imagen": "img/vajilla-y-manteleria.jpeg",
+    "detalles": [
+      "Vajilla para diferentes tipos de eventos.",
+      "Mantelería para la presentación de las mesas.",
+      "Opciones según la cantidad de invitados.",
+      "Disponibilidad y presupuesto a consultar."
+    ]
+ 
+  },
+  {
+    "id": 7,
+    "etiqueta": "OPCIONES PARA TODOS",
+    "nombre": "Menús especiales",
+    "descripcion": "Ofrecemos alternativas gastronómicas para invitados con necesidades alimentarias particulares, incluyendo opciones vegetarianas y sin TACC, para que todos puedan disfrutar del evento.",
+    "imagen": "",
+    "detalles": [
+      "Opciones vegetarianas a pedido.",
+      "Menús sin TACC elaborados por un proveedor especializado.",
+      "Presentaciones individuales, cerradas e identificadas para los menús sin TACC.",
+      "Otras necesidades alimentarias sujetas a consulta previa."
+    ]
+  }
+]
+
+
+
+
+
