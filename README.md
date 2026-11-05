@@ -153,6 +153,22 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Corrección de rutas de imágenes y etiquetas de cierre HTML.
 - Pruebas visuales de los siete servicios en el navegador.
 
+### 04/11/2026 - Desarrollo de la galería fotográfica
+
+- Se creó la sección"Momentos que compartimos"para mostrar fotografías reales del emprendimiento.
+- Se organizaron las imágenes en la carpeta img/galeria.
+- Se crearon los archivos galeria.json y galeria.js.
+- Se implementó la carga dinámica de fotografías utilizando JavaScript y fetch()
+-Se utilizó PowerShell para obtener los nombres de las imágenes y generar automáticamente el archivo JSON.
+- Se incorporó una cuadrícula con CSS Grid para organizar las fotografías.
+- Se agregaron media queries la galería a computadoras, tablets y celulares.
+- Se corrigió la orientación de una fotografía y se eliminó una imagen duplicada.
+- Se mejoró la tipografía del título de la sección.
+- Se implementó un lightbox que permite ampliar las fotografías, recorrerlas mediante flechas y cerrar el visor.
+
+### Resultado
+
+Se logró una galería fotográfica dinámica, responsive e interactiva, que permite mostrar los trabajos y eventos del emprendimiento.
 
 
 ### Próximos pasos
@@ -162,5 +178,8 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 - Revisar la adaptación del sitio a distintos tamaños de pantalla.
 - Realizar pruebas finales de navegación, formularios y enlaces de WhatsApp.
 - Completar la documentación y preparar la entrega del proyecto.
+- Revisar los últimos detalles estéticos.
+- Comprobar el funcionamiento en dispositivos móviles.
+- Registrar los cambios en Git y subirlos a GitHub.
 
 
