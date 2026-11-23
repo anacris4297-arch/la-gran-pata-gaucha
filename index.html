@@ -63,6 +63,8 @@
 
     <main class="container">
 
+     
+
        
 <!-- SECCIÓN NOSOTROS -->
         <section id="nosotros" class="presentacion">
@@ -72,17 +74,118 @@
     momentos para compartir
 </h2>
  
+
+<!-- Presentación breve del emprendimiento -->
 <p>
-  
-Hay sabores que reúnen, momentos que se comparten y celebraciones que se recuerdan. Esa es la esencia de La Gran Pata Gaucha.
-
-Desde hace 17 años acompañamos celebraciones y encuentros con el auténtico sabor de campo. Nos especializamos en patas y perniles al horno de leña, elaborados con dedicación y acompañados de nuestras salsas caseras.
-
-Ofrecemos propuestas gastronómicas para eventos sociales, empresariales y corporativos, cuidando cada detalle para que nuestros clientes disfruten de momentos únicos.
+    Hace 17 años acompañamos celebraciones con el auténtico
+    sabor de campo, dedicación y pasión por lo que hacemos.
 </p>
+
+
+<!-- Botón para mostrar u ocultar la historia y las fotos del equipo -->
+<button type="button" class="btn-equipo"
+        aria-controls="carrusel-equipo"
+        aria-expanded="false"
+        onclick="
+          const seccion = document.getElementById('carrusel-equipo');
+          const abierto = getComputedStyle(seccion).display !== 'none';
+          seccion.style.display = abierto ? 'none' : 'block';
+          this.setAttribute('aria-expanded', String(!abierto));
+        ">
+  Conocé nuestro equipo
+</button>
 
     <div class="adorno-inferior"></div>
 </section>
+
+<!-- SECCIÓN DEL CARRUSEL DEL EQUIPO -->
+<section id="carrusel-equipo" class="seccion-equipo">
+
+
+ <!-- Presentación de la historia y trayectoria del emprendimiento -->
+<h2>Nuestra historia</h2>
+
+<p>
+  Desde hace 17 años acompañamos celebraciones y encuentros
+  con el auténtico sabor de campo.
+  Nos especializamos en patas y perniles al horno de leña,
+  elaborados con dedicación y acompañados de nuestras salsas caseras.
+</p>
+
+<p>
+  Ofrecemos propuestas gastronómicas para eventos sociales,
+  empresariales y corporativos, cuidando cada detalle
+  para que nuestros clientes disfruten de momentos únicos.
+</p>
+  <!-- Carrusel de fotografías del equipo -->
+<div id="fotos-equipo" class="carousel slide">
+
+  <!-- Contenedor de las diez fotografías -->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="img/galeria/005d1eff-229f-46d8-8531-88bf1c6af94f.jpeg" class="d-block w-100" alt="Equipo de La Gran Pata Gaucha - foto 1">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/482c48f1-3d5e-4866-93b4-200c1d446063.jpeg" class="d-block w-100" alt="Equipo - foto 2">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/614b68d2-f83f-4714-9bb3-be6f33734f76.jpeg" class="d-block w-100" alt="Equipo - foto 3">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/c7963049-7d01-4f34-a682-7ef7d5ffdc37.jpeg" class="d-block w-100" alt="Equipo - foto 4">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/WhatsApp Image 2026-11-04 at 01.30.22 (2).jpeg" class="d-block w-100" alt="Equipo - foto 5">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/0a4aaed6-5814-459d-b85c-959907adba3a.jpeg" class="d-block w-100" alt="Equipo - foto 6">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/1f5c973f-4663-426c-8f94-d7722bf26531.jpeg" class="d-block w-100" alt="Equipo - foto 7">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/6b0fe9c0-3e1f-49bd-bf2f-64dcd9a7407e.jpeg" class="d-block w-100" alt="Equipo - foto 8">
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/galeria/37f2c7cb-2955-46fc-8178-a963f15b9b6b.jpeg" class="d-block w-100" alt="Equipo - foto 9">
+    </div>
+
+<div class="carousel-item">
+  <img
+    src="img/galeria/e08669ef-f9f3-4d49-b8b7-e168b02cd3a4.jpeg"
+    class="d-block w-100"
+    alt="Equipo de La Gran Pata Gaucha - foto 10">
+</div>
+
+  </div>
+
+  <!-- Botón para retroceder -->
+  <button class="carousel-control-prev" type="button"
+          data-bs-target="#fotos-equipo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+
+  <!-- Botón para avanzar -->
+  <button class="carousel-control-next" type="button"
+          data-bs-target="#fotos-equipo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+
+</div>
+
+</section>
+
 <!-- SECCIÓN PRODUCTOS -->
      <section id="productos" class="py-5">
            <h2>Nuestros productos</h2>
@@ -110,6 +213,37 @@ Ofrecemos propuestas gastronómicas para eventos sociales, empresariales y corpo
 
     <div id="contenedor-galeria"></div>
 </section>
+
+ <!-- SECCIÓN RESEÑAS DE GOOGLE -->
+<section id="resenas-google" class="container text-center my-5">
+
+  <h2>La opinión de nuestros clientes</h2>
+
+  <p>
+    Cada celebración es especial.
+    Conocé las experiencias de quienes confiaron
+    en La Gran Pata Gaucha.
+  </p>
+  <!-- Calificaciones reales de nuestros clientes en Google -->
+<div id="calificaciones-google" class="my-4" hidden>
+
+  <!-- Aquí mostraremos las estrellas y reseñas reales -->
+   
+<div class="sk-ww-google-reviews" data-embed-id="25731290"></div><script src="https://widgets.sociablekit.com/google-reviews/widget.js" defer></script>
+
+</div>
+
+  <!-- Enlace directo para calificar nuestro servicio en Google -->
+  <a
+    href="https://g.page/r/CYYk_F6MFo8LEBI/review"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn-equipo">
+    ⭐ Dejanos tu reseña en Google
+  </a>
+
+</section>  
+
 <!-- SECCIÓN CONTACTO -->
         <section id="contacto">
             <h2>Contacto</h2>

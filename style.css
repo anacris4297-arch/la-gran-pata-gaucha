@@ -499,3 +499,201 @@ overflow: hidden;
 #siguiente-galeria {
     right: 15px;
 }
+
+/* SECCIÓN NOSOTROS: fotografía de fondo */
+#nosotros {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.40),
+            rgba(0, 0, 0, 0.40)
+        ),
+        url("equipo-lgpg.jpeg") center 40% / cover no-repeat;
+
+    color: white;
+    padding: 65px 35px;
+    border-radius: 30px;
+}
+
+/* Título y texto sobre la fotografía */
+#nosotros .titulo-presentacion,
+#nosotros p {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* Botón para conocer al equipo */
+#nosotros .btn-equipo {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #d4a373;
+    color: #321b0e;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#nosotros .btn-equipo:hover {
+    background-color: #f1c99e;
+}
+/* MEJORA DE LA SECCIÓN NOSOTROS */
+
+/* Dejamos espacio arriba para mostrar los rostros */
+#nosotros {
+    padding: 230px 35px 30px;
+    background-position: center 30%;
+}
+
+/* Reducimos el tamaño del título */
+#nosotros .titulo-presentacion {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+/* Hacemos el texto más compacto */
+#nosotros p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 780px;
+    margin: 15px auto;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 768px) {
+    #nosotros {
+        padding: 180px 20px 30px;
+        background-position: center top;
+    }
+
+    #nosotros .titulo-presentacion {
+        font-size: 25px;
+    }
+
+    #nosotros p {
+        font-size: 15px;
+    }
+}
+
+
+/* Ajuste de la presentación: rostros despejados */
+#nosotros {
+    min-height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 300px 30px 25px;
+    background-position: center 25%;
+}
+
+/* Título y descripción más compactos */
+#nosotros .titulo-presentacion {
+    font-size: 27px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+#nosotros p {
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 650px;
+    margin: 8px auto;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 768px) {
+    #nosotros {
+        min-height: 620px;
+        padding: 320px 18px 25px;
+        background-position: center top;
+    }
+
+    #nosotros .titulo-presentacion {
+        font-size: 24px;
+    }
+
+    #nosotros p {
+        font-size: 15px;
+    }
+}
+/* Ocultar la sección del equipo hasta abrirla desde el botón */
+#carrusel-equipo {
+    display: none;
+}
+
+/* CARRUSEL DE FOTOGRAFÍAS DEL EQUIPO */
+
+#carrusel-equipo {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Tamaño y presentación del carrusel */
+#fotos-equipo {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+/* Flechas del carrusel: marrones, visibles y sin transparencia */
+#fotos-equipo .carousel-control-prev,
+#fotos-equipo .carousel-control-next {
+    width: 45px;
+    opacity: 1;
+}
+
+#fotos-equipo .carousel-control-prev-icon,
+#fotos-equipo .carousel-control-next-icon {
+    filter: none;
+    background-color: hwb(28 60% 14%);
+    border: 2px solid #F5EFE6;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-size: 45%;
+}
+/* Fotografías completas, sin recortes */
+#fotos-equipo .carousel-item img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 768px) {
+    #fotos-equipo .carousel-item img {
+        height: 280px;
+    }
+}
+
+/* Tipografía de la historia de La Gran Pata Gaucha */
+#carrusel-equipo h2,
+#resenas-google h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: #6B3E26;
+}
+
+#carrusel-equipo p,
+#resenas-google p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 18px;
+    color: #8B5E3C; 
+}
+
+/* Botón para dejar una reseña */
+#resenas-google .btn-equipo {
+    display: inline-block;
+    background-color: #9B765B;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+}

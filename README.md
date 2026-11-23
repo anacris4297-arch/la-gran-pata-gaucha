@@ -171,15 +171,31 @@ Actualmente se está trabajando en el diseño, organización de contenidos, pres
 Se logró una galería fotográfica dinámica, responsive e interactiva, que permite mostrar los trabajos y eventos del emprendimiento.
 
 
+## Avances del 22 de noviembre de 2026
+
+### Reseñas de Google
+- Se incorporó la sección "La opinión de nuestros clientes".
+- Se unificaron los estilos CSS con "Nuestra historia", reutilizando tipografías y colores marrones.
+- Se agregó un botón para dejar reseñas directamente en Google.
+- Se creó y probó un código QR para utilizar en los eventos.
+- Se configuró SociableKIT para mostrar reseñas de Google.
+- Se insertó el componente de SociableKIT en index.html.
+- Se ocultó temporalmente el componente porque todavía no muestra correctamente las reseñas.
+
+### Comprobaciones
+- Se verificó que el botón de reseñas dirige a Google Maps.
+- Se confirmó que el QR permite acceder al formulario de reseñas.
+- Se revisó el video de portada y su reproducción.
+
+
+
+
 ### Próximos pasos
-- Desarrollar propuestas y combinaciones gastronómicas personalizadas para distintos eventos.
-- Continuar mejorando la sección "Nosotros".
-- Incorporar fotografías del personal de atención en eventos.
-- Revisar la adaptación del sitio a distintos tamaños de pantalla.
+
 - Realizar pruebas finales de navegación, formularios y enlaces de WhatsApp.
-- Completar la documentación y preparar la entrega del proyecto.
-- Revisar los últimos detalles estéticos.
-- Comprobar el funcionamiento en dispositivos móviles.
-- Registrar los cambios en Git y subirlos a GitHub.
+- Comprobar el funcionamiento de la página en dispositivos móviles.
+- Comprobar la sincronización de las reseñas en SociableKIT.
+- Mostrar las estrellas y opiniones reales de Google con un diseño acorde a la página.
+- Completar la documentación y preparar la entrega final del proyecto.
 
 
