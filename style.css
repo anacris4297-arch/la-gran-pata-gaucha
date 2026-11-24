@@ -697,3 +697,31 @@ overflow: hidden;
     border-radius: 25px;
     text-decoration: none;
 }
+/* Ajuste de márgenes y textos para celulares */
+@media (max-width: 768px) {
+
+    #resenas-google,
+    #contacto {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #resenas-google h2,
+    #contacto h2 {
+        font-size: 28px;
+    }
+
+    #resenas-google p,
+    #contacto p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    /* Ajuste del botón flotante de WhatsApp */
+.whatsapp-flotante {
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
+    bottom: 15px;
+    right: 10px;
+}
+}

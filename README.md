@@ -187,15 +187,31 @@ Se logró una galería fotográfica dinámica, responsive e interactiva, que per
 - Se confirmó que el QR permite acceder al formulario de reseñas.
 - Se revisó el video de portada y su reproducción.
 
+### Avances del 24/11/2026
 
-
+- Integración de las reseñas reales de Google mediante SociableKIT.
+- Personalización de colores, tipografías y tarjetas de reseñas.
+- Configuración del carrusel de opiniones.
+- Traducción de los textos del widget al español.
+- Verificación de los enlaces a Google y WhatsApp.
+- Ajuste de márgenes y espacios en dispositivos móviles.
+- Optimización del botón flotante de WhatsApp.
+- Validación de los campos obligatorios del formulario.
+- Validación del formato del correo electrónico y teléfono.
+- Validación de la cantidad mínima de invitados.
+- Restricción automática de fechas anteriores al día actual mediante JavaScript.
+- Verificación del funcionamiento del formulario de solicitud de presupuesto.
+- Comprobación de los botones de consulta de productos y servicios.
+- Pruebas de funcionamiento en escritorio y vista móvil.
 
 ### Próximos pasos
 
-- Realizar pruebas finales de navegación, formularios y enlaces de WhatsApp.
-- Comprobar el funcionamiento de la página en dispositivos móviles.
-- Comprobar la sincronización de las reseñas en SociableKIT.
-- Mostrar las estrellas y opiniones reales de Google con un diseño acorde a la página.
-- Completar la documentación y preparar la entrega final del proyecto.
+- Completar la documentación final del proyecto.
+- Actualizar el repositorio de GitHub.
+- Preparar la presentación en PowerPoint.
+- Elaborar el guion para el video de defensa.
+- Preparar la entrega final del proyecto.
+
+
 
 

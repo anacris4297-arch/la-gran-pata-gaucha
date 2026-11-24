@@ -1,4 +1,11 @@
 const formulario = document.getElementById("formPresupuesto");
+// Impide seleccionar fechas anteriores al día actual
+const hoy = new Date();
+const anio = hoy.getFullYear();
+const mes = String(hoy.getMonth() + 1).padStart(2, "0");
+const dia = String(hoy.getDate()).padStart(2, "0");
+
+document.getElementById("fecha").min = `${anio}-${mes}-${dia}`;
 
 formulario.addEventListener("submit", function(evento) {
   evento.preventDefault();

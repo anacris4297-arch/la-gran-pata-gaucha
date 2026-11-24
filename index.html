@@ -225,7 +225,7 @@
     en La Gran Pata Gaucha.
   </p>
   <!-- Calificaciones reales de nuestros clientes en Google -->
-<div id="calificaciones-google" class="my-4" hidden>
+<div id="calificaciones-google" class="my-4" >
 
   <!-- Aquí mostraremos las estrellas y reseñas reales -->
    
@@ -250,7 +250,11 @@
             <p>Consultanos por tu próximo evento.</p>
            <form class="container col-md-7 mx-auto" id="formPresupuesto">
   <input type="text" id="nombre" class="form-control mb-3" placeholder="Nombre y apellido" required>
- <input type="tel" id="telefono" class="form-control mb-3" placeholder="Teléfono" required>
+ <input type="tel" id="telefono" class="form-control mb-3"
+    placeholder="Teléfono"
+    pattern="[+]?[0-9](?: ?[0-9]){7,14}"
+    title="Ingresá un número de teléfono válido"
+    required>
   <input type="email" id="correo" class="form-control mb-3" placeholder="Correo electrónico" required>
  <div class="input-group mb-3">
   <span class="input-group-text">Fecha del evento</span>
